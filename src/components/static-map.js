@@ -220,7 +220,7 @@ export default class StaticMap extends PureComponent {
       visibility: visible ? 'visible' : 'hidden'
     });
     const overlayContainerStyle = {
-      position: 'absolute',
+      position: 'relative',
       left: 0,
       top: 0,
       width,
